@@ -1,7 +1,8 @@
 # free-form-VQA
-From (question, short answer) pair to long answer.  
+## From (question, short answer) pair to long answer.  
 
-Put VQA annotations in the data folder (at the same level as code folder).
+### How to run the code?
+First, please put VQA annotations in the *data* folder (at the same level as code folder).
 
 First run two notebook *rules.ipynb* and *image_captions.ipynb* to generate question-answer pairs from VQA2.0 and captions accordingly.   
 Next, run notebook *Concat_datasets.ipynb* to produce the final dataset in json format. 
